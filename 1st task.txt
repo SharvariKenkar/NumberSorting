@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        // Example array of numbers
+        int[] numbers = {34, 12, 45, 2, 67, 19};
+        
+        // Sorting the array
+        Arrays.sort(numbers);
+        
+        // Display the sorted array
+        System.out.println("Sorted Array in Ascending Order:");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
